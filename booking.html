@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+  <!--  CSS stylesheet links -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- favicon #ref:Youtube -->
+  <link rel="icon" href="./Icons/Logo.jpeg" type="image/x-icon">
+  </head>
+
+  <!-- navigation bar -->
+  <header class="header">
+      <!-- logo -->
+      <a href="./index.html" class="logo"><img src="./Icons/Logo full.jpg" alt="logo"></a>
+      <!-- hamburger menu -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav">
+          <ul class="menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./experiences.html">Experiences</a></li>
+              <li><a href="./Restaurant.html">Restaurants</a>
+              <ul>
+                  <li><a href="./wedding.html">Wedding</a></li>
+                  <li><a href="./meeting.html">Meetings</a></li>
+              </ul>
+          </li>
+              <li><a href="./contact.html">Contact</a>
+              <li><a href="./booking.html">Book Now</a></li>
+          </ul>
+      </nav>
+  </header>
+    <main>
+        <h1 id="f-h1">Reserve Now</h1>
+        <strong><p id="f-p">Please complete the form below</p></strong>
+        <section>
+            <br>
+            <p id="s-p">Your registration will be confirmed prior to your arrival</p>
+            <!-- action is where it goes and saves -->
+            <form action="#" method="post" id="booking-form" >
+                <section>
+                <h1>Contact Information</h1>
+                <p>
+                    <label for="name">
+                        <span>Name </span>
+                        <strong><span aria-label="required"></span></strong>
+                    </label>
+                    <br>
+                    <input type="text" id="name" name="users-name" >
+                    <p class="l-text">First Name</p>
+                    <input type="text" id="name" name="username">
+                    <p class="l-text">Last Name</p>
+                </p>
+                <p>
+                    <br>
+                    <br>
+                    <label for="email">
+                        <span class="t-mail">E-mail</span>
+                        <strong><span aria-label="required"></span></strong>
+                    </label>
+                    <input type="email" id="email" name="users-mail" required>
+                    <p class="e-text">example@example.com</p>
+                </p>
+                <p>
+                    <br>
+                    <label for="telephone">
+                        <span>Phone Number</span>
+                    </label>
+                    <input type="tel" id="p-number" name="phone" pattern="[0-9]{10}" placeholder="000-000-0000">
+                </p>
+                <p>
+                    <br>
+                    <br>
+                    <label for="Date">
+                        <span>Check In Date</span><br>
+                        <strong><span aria-label="required"></span></strong>
+                    </label>
+                    <select id="Month" name="Month">
+                        <option >January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <p class="l-month">Month</p>
+                    <select id="Date" name="Date">
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <p class="l-month">Date</p>
+                    <select id="Year" name="Year">
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                    </select>
+                    <p class="l-month">Year</p>
+                </p>
+                <p>
+                    <br>
+                    <br>
+                    <label for="O-Date">
+                        <span>Check Out Date</span>
+                        <strong><span aria-label="required"></span></strong>
+                    </label>
+                    <br>
+                    <select id="o-Month" name="Month">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <p class="l-month">Month</p>
+                    <select id="Date" name="Date">
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <p class="l-month">Date</p>
+                    <select id="Year" name="Year">
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                    </select>
+                    <p class="l-month">Year</p>
+                </p>
+                <p>
+                    <br>
+                    <br>
+                    <label for="Room">
+                        <span>Room Type </span>
+                    </label>
+                    <select id="room" name="Please select">
+                        <option value="standard room">Standard Room</option>
+                        <option value="deluxe room" >Deluxe Room</option>
+                        <option value="suite">Suite</option>
+                        <option value="Executive suite">Executive suite</option>
+                        <option value="Junior suite">Junior suite</option>
+                        <option value="Penthouse">Penthouse Suite</option>
+                    </select>
+                </p>
+                <p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="guests">
+                        <span>Guests</span>
+                        <strong><span aria-label="required"></span></strong>
+                    </label>
+                    <input type="number" id="Number" name="Guests"  placeholder="1+">
+                    </label>
+                </p>
+                <p>
+                    <br>
+                    <br>
+                        <label>Free Pickup?</label>
+                        <strong><span aria-label="required"></span></strong>
+                        <ul>
+                            <li>
+                                <label for="yes">
+                                    <input type="radio" id="yes" name="yes" value="Yes">
+                                    Yes Please!- Pick me up on arrival
+                                </label>
+                            </li>
+                            <li>
+                                <label for="No">
+                                    <input type="radio" id="no" name="no" value="No">
+                                    No Thanks- I'll make my own way there
+                                </label>
+                            </li>
+                        </ul>
+                </p>
+               <br>
+               <br>
+               <p>
+                <label for="request">
+                    <br>
+                    <br>
+                    <span>Special Request</span>
+                    <strong><span aria-label="required"></span></strong>
+                </label>
+                <textarea id="description" name="Type.." rows="4" cols="50"></textarea>
+               </p>
+                </section>
+                <section>
+                    <br>
+                    <br>
+                    <h1>Payment Information</h1>
+                    <p>
+                        <br>
+                        <label for="card">
+                            <span>Card Type </span>
+                        </label>
+                        <select id="card" name="user-card">
+                            <option value="visa">Visa</option>
+                            <option value="master">Mastercard</option>
+                            <option value="ame-exp">American Express</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="number">
+                          <span>Card Number</span>
+                          <strong><span aria-label="required">*</span></strong>
+                        </label>
+                          <input type="tel" id="number" name="cardnumber" required>
+                      </p>
+                      <p>
+                        <label for="expiration">
+                          <span>Expiration Date</span>
+                          <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" id="expiration" required="true" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$">
+                      </p>
+                  </section>
+                  <section>
+                      <p><button class="booking-btn" type="submit">Pay Now</button></p>
+                  </section>
+            </form>
+        </section>
+    </main>
+</body>
+<!-- Footer -->
+<footer class="footer">
+    <section class="section__container footer__container">
+      <section class="footer__col">
+        <h3><logo id="f-logo"
+    ><a><img src="./Icons/Logo full.jpg" alt=""></a></logo></h3>
+      </section>
+      <section class="footer__col">
+        <h4>SITE MAP</h4>
+        <p><a href="./index.html">Home</a></p>
+        <p><a href="./about.html">About</a></p>
+        <p><a href="./experiences.html">Experiences</a></p>
+        <p><a href="./Restaurant.html">Restaurants</a></p>
+        <p><a href="./contact.html">Contact Us</a></p>
+        <p><a href="./booking.html">Book Now</a></p>
+        
+      </section>
+      <section class="footer__col">
+        <h4>Legal</h4>
+        <p>FAQs</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+      </section>
+      <section class="footer__col">
+        <h4>Resources</h4>
+        <p>Social Media</p>
+        <p>Help Center</p>
+        <p>Partnerships</p>
+      </section>
+    </section>
+    <section class="footer__bar">
+      Copyright © 2023 Gayathri Hapukotuwa. All rights reserved.
+    </section>
+  </footer>
+</html>

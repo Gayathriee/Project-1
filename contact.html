@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+<!--  CSS stylesheet links -->
+<link rel="stylesheet" href="./style.css">
+
+<!-- favicon #ref:Youtube -->
+<link rel="icon" href="./Icons/Logo.jpeg" type="image/x-icon">
+</head>
+<body>
+<!-- navigation bar -->
+<header class="header">
+    <!-- logo -->
+    <a href="./index.html" class="logo"><img src="./Icons/Logo full.jpg" alt="logo"></a>
+    <!-- hamburger menu -->
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./experiences.html">Experiences</a></li>
+            <li><a href="./Restaurant.html">Restaurants</a>
+            <ul>
+                <li><a href="./wedding.html">Wedding</a></li>
+                <li><a href="./meeting.html">Meetings</a></li>
+            </ul>
+        </li>
+            <li><a href="./contact.html">Contact</a>
+            <li><a href="./booking.html">Book Now</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- main body of the page-->
+<main>
+  <h1 id="c-h1">Contact Now</h1>
+  <form action="#" method="post" id="booking-form" >
+    <section>
+    <p>
+        <label for="name">
+            <span>Name </span>
+            <strong><span aria-label="required"></span></strong>
+        </label>
+        <br>
+        <input type="text" id="name" name="users-name" >
+        <p class="l-text">First Name</p>
+        <input type="text" id="name" name="username">
+        <p class="l-text">Last Name</p>
+    </p>
+    <p>
+        <br>
+        <br>
+        <label for="email">
+            <span class="t-mail">E-mail</span>
+            <strong><span aria-label="required"></span></strong>
+        </label>
+        <input type="email" id="email" name="users-mail" required>
+        <p class="e-text">example@example.com</p>
+    </p>
+    <button class="reward__btn">Contact Now</button>
+    </section>
+   
+</form>
+</main>
+<!-- discount -->
+<section class="section__container">
+    <div class="reward__container">
+      <p>100+ discount codes</p>
+      <h4>Join rewards and discover amazing discounts on your booking</h4>
+      <button class="reward__btn">Join Rewards</button>
+    </div>
+  </section>
+    
+</body>
+<!-- Footer -->
+<footer class="footer">
+    <section class="section__container footer__container">
+      <section class="footer__col">
+        <h3><logo id="f-logo"
+    ><a><img src="./Icons/Logo full.jpg" alt=""></a></logo></h3>
+      </section>
+      <section class="footer__col">
+        <h4>SITE MAP</h4>
+        <p><a href="./index.html">Home</a></p>
+        <p><a href="./about.html">About</a></p>
+        <p><a href="./experiences.html">Experiences</a></p>
+        <p><a href="./Restaurant.html">Restaurants</a></p>
+        <p><a href="./contact.html">Contact Us</a></p>
+        <p><a href="./booking.html">Book Now</a></p>
+        
+      </section>
+      <section class="footer__col">
+        <h4>Legal</h4>
+        <p>FAQs</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+      </section>
+      <section class="footer__col">
+        <h4>Resources</h4>
+        <p>Social Media</p>
+        <p>Help Center</p>
+        <p>Partnerships</p>
+      </section>
+    </section>
+    <section class="footer__bar">
+      Copyright © 2023 Gayathri Hapukotuwa. All rights reserved.
+    </section>
+  </footer>
+</html>
